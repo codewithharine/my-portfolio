@@ -632,13 +632,13 @@ footer{
       <div class="achievement-card child-anim">
         <div class="achievement-icon">🏆</div>
         <div class="achievement-title">National Entrepreneurship Challenge</div>
-        <div class="achievement-duration">2024-2025</div>
+        <div class="achievement-duration">2 Years</div>
         <div class="achievement-desc">Participated in India's premier startup competition, pitching and scaling business ideas. Gained hands-on experience in business modeling, investor pitch decks, and building products from zero to market.</div>
       </div>
       <div class="achievement-card child-anim">
         <div class="achievement-icon">🎓</div>
         <div class="achievement-title">Campus Ambassador</div>
-        <div class="achievement-duration">2025</div>
+        <div class="achievement-duration">1 Year</div>
         <div class="achievement-desc">E-Cell IIT Bombay representative on campus. Organized entrepreneurship events, workshops, and community outreach. Built networks across 500+ student community members and fostered startup culture.</div>
       </div>
       <div class="achievement-card child-anim">
@@ -792,7 +792,7 @@ const childObs = new IntersectionObserver(entries => {
 }, { threshold: 0.08 });
 
 // Observe parent sections for child stagger
-document.querySelectorAll('#about .about-grid, #skills .skills-grid, #experience .exp-list, #projects .projects-grid, #certifications .cert-grid').forEach(el => {
+document.querySelectorAll('#about .about-grid, #skills .skills-grid, #experience .exp-list, #projects .projects-grid, #achievements .achievements-grid, #certifications .cert-grid').forEach(el => {
   childObs.observe(el);
 });
 </script>
